@@ -1,0 +1,184 @@
+*{
+    font-family: 'Gamja Flower', cursive;
+    box-sizing: border-box;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    color: darkslateblue;
+    font-weight: bolder;
+    font-size: 25px;
+
+    width: 1000px;
+    
+    margin: 20px auto 0 auto;
+
+    background-color: white;
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+
+    text-decoration: none;
+    list-style-type: none;
+
+    width: 1000px;
+    
+    margin:0 auto 0 auto;
+    padding-top: 10px;
+
+    background-color: whitesmoke;
+}
+
+li{ 
+    font-size: 40px;
+    font-weight: bolder;
+    color: darkslateblue;
+    
+}
+
+.nav-1{
+    margin: 0 30px 0 30px;
+}
+.nav-2{
+    margin: 0 30px 0 30px;
+}
+.nav-3{
+    margin: 0 30px 0 30px; 
+}
+.nav-4{
+    margin: 0 30px 0 30px; 
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    
+    width: 1000px;
+    height: 700px;
+
+    font-size: 25px;
+
+    margin: 0 auto 0 auto;
+    border-top: 3px solid darkslateblue;
+    
+    color: darkslateblue; 
+}
+
+.even-better{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    width: 1000px;
+    height: 400px;
+
+    margin: 70px auto 0 auto;
+}
+
+.even-better-text{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+
+    width: 600px;
+    height: 400px;
+
+    margin: 0;
+    padding-top: 5%;
+}
+
+.even-better-image{
+    width: 400px;
+    height: 400px;
+    
+    background-image: url("even-better.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+
+    margin: 0;
+    padding: 0; 
+}
+
+.velog{
+    display: flex;
+    flex-direction: row;
+
+    width: 1000px;
+    height: 400px;
+
+    margin: 70px auto 0 auto;
+}
+
+.velog-image{
+    width: 550px;
+    height: 400px;
+    
+    background-image: url("typing.gif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+
+    margin: 0;
+    padding: 0;
+}
+
+
+.velog-text{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+
+    width: 450px;
+    height: 400px;
+
+    margin: 0;
+    padding-top: 10%;
+}
+
+.code{
+    display: flex;
+    flex-direction: row;
+
+    width: 1000px;
+    height: 400px;
+
+    margin: 70px auto 0 auto;
+}
+
+.code-image{
+    width: 500px;
+    height: 400px;
+    
+    background-image: url("code.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10%;
+
+    margin: 0;
+    padding: 0;
+}
+
+.code-text{
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+
+    width: 500px;
+    height: 400px;
+
+    margin: 0;
+    padding-top: 10%;
+}
